@@ -5,7 +5,9 @@ on:
     branches:
       - master
       - main
- 
+    paths-ignore:
+        - 'helm/**'
+
 jobs:
 
   build:
