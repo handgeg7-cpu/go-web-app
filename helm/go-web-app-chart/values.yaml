@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: grhandge/mygowebapp
+  repository: grhandge/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "24627177542"
+  tag: "24626321898"
 
 ingress:
   enabled: false
