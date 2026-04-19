@@ -1,0 +1,22 @@
+# This is a sample deployment manifest file for a simple web application.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myappservice
+  labels:
+    app: myappservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: myappservice
+  template:
+    metadata:
+      labels:
+        app: myappservice
+    spec:
+      containers:
+      - name: myappservice
+        image: grhandge/mygowebapp:v5
+        ports:
+        - containerPort: 9000
