@@ -8,7 +8,7 @@ image:
   repository: grhandge/mygowebapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "24627669054"
+  tag: "24633913853"
 
 ingress:
   enabled: false
